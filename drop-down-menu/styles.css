@@ -1,0 +1,69 @@
+html {
+  font-family: system-ui;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  display: inline-block;
+  background: #6c757d;
+  color: white;
+  padding: 10px 17px 10px 12px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.dropdown-toggle:focus {
+  border: 2px solid lightgray;
+}
+
+.dropdown-toggle:hover {
+  background: #5e676e;
+}
+
+.down-arrow {
+  display: inline-block;
+  font-size: 10px;
+  position: relative;
+  left: 5px;
+  bottom: 2px;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  width: 195px;
+  padding: 8px 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  position: absolute;
+  background: white;
+}
+
+/* .dropdown-toggle:hover ~ .dropdown-menu,
+.dropdown-menu:hover {
+  display: flex;
+} */
+
+.dropdown-menu > a {
+  padding: 3px 20px;
+}
+
+.dropdown-menu > a:link,
+.dropdown-menu > a:visited {
+  color: black;
+}
+
+.dropdown-menu > a:hover {
+  background: rgb(245, 248, 250);
+}
