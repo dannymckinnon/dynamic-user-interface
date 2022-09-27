@@ -18,7 +18,7 @@ a {
   display: inline-block;
   background: #6c757d;
   color: white;
-  padding: 10px 17px 10px 12px;
+  padding: 10px 17px;
   border-radius: 5px;
   border: 2px solid white;
 }
@@ -29,14 +29,6 @@ a {
 
 .dropdown-toggle:hover {
   background: #5e676e;
-}
-
-.down-arrow {
-  display: inline-block;
-  font-size: 10px;
-  position: relative;
-  left: 5px;
-  bottom: 2px;
 }
 
 .dropdown-menu {
@@ -50,10 +42,9 @@ a {
   background: white;
 }
 
-/* .dropdown-toggle:hover ~ .dropdown-menu,
-.dropdown-menu:hover {
+.show {
   display: flex;
-} */
+}
 
 .dropdown-menu > a {
   padding: 3px 20px;
